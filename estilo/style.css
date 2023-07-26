@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background: url(../imagens/wallpaper.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+#telefone {
+    background-color: rebeccapurple;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 627px;
+    width: 311px;
+    background: url(../imagens/frame-iphone.png) no-repeat;
+}
+
+#tela {
+    background-color: black;
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 267px;
+    height: 471px;
+}
+
+#botao img {
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#botao img:hover {
+    height: 45px;
+    padding: 10px;
+    transition: .3s;
+}
+
